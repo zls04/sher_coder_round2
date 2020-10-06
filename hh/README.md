@@ -30,8 +30,7 @@ ssh-keygen -t rsa -C "562904586@qq.com"
 ssh key就像是一个令牌，有了它就可以畅通无阻的访问你在github上的库啦
 
 ### 将令牌（SSH KEY）的模样告诉github
-Settings \Rightarrow SSH and GPG keys \Rightarrow 填写好title（就是起个名字）\Rightarrow
-\Rightarrow  将id_rsa.pub内容全部粘贴到Key中 \Rightarrow 点击 Add SSH key
+Settings --》 SSH and GPG keys --》 填写好title（就是起个名字）--》将id_rsa.pub内容全部粘贴到Key中 --》 点击 Add SSH key
 
 ### 验证SSH key 有没有绑定成功
 在shell里面输入
